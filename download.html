@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f8f5" />
+    <meta name="description" content="Download the NoUpdateAI desktop app for Windows." />
+    <title>Download NoUpdateAI for Windows</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Segoe UI", sans-serif;
+        color: #252a28;
+        background: #f8f8f5;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+      * { box-sizing: border-box; }
+      body { display: grid; min-width: 320px; min-height: 100vh; margin: 0; place-items: center; padding: 24px; }
+      main { width: min(100%, 520px); padding: 44px; border: 1px solid #e9eae4; border-radius: 18px; background: #fff; box-shadow: 0 24px 70px #263a2d12; }
+      .brand { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 750; letter-spacing: -.5px; }
+      .mark { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 9px; background: #e8eee8; color: #527963; font-size: 18px; }
+      h1 { margin: 34px 0 10px; font-size: clamp(30px, 7vw, 42px); letter-spacing: -1.8px; }
+      p { color: #737a73; font-size: 15px; line-height: 1.7; }
+      .downloads { display: grid; gap: 12px; margin-top: 28px; }
+      .button { display: flex; min-height: 52px; align-items: center; justify-content: center; border: 1px solid #405d49; border-radius: 8px; background: #405d49; color: #fff; font-size: 14px; font-weight: 650; text-decoration: none; transition: background .15s ease; }
+      .button:hover { background: #304b39; }
+      .button.secondary { border-color: #dfe4dc; background: #fff; color: #405d49; }
+      .button.secondary:hover { background: #f5f8f3; }
+      .size-warning { margin-top: 18px; padding: 13px 15px; border: 1px solid #e8ddbd; border-radius: 8px; background: #fffaf0; color: #695629; font-size: 13px; line-height: 1.6; }
+      .note { margin-top: 24px; padding-top: 18px; border-top: 1px solid #e9eae4; font-size: 12px; }
+      a:focus-visible { outline: 3px solid #8eaf99; outline-offset: 3px; }
+      @media (max-width: 480px) { main { padding: 30px 24px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand"><span class="mark" aria-hidden="true">✳</span><span>NoUpdateAI</span></div>
+      <h1>Get the desktop app.</h1>
+      <p>Download NoUpdateAI for Windows. The app connects to NoUpdateAI online for sign-in and chat.</p>
+      <div class="downloads">
+        <a class="button" href="/downloads/NOUPDATE.exe" download="NOUPDATE.exe">Download NOUPDATE for Windows (.exe)</a>
+        <a class="button secondary" href="https://discord.gg/3zYVzeDPs6" target="_blank" rel="noopener noreferrer">Join Discord to download the NOUPDATE ZIP</a>
+      </div>
+      <p class="size-warning"><strong>Large download:</strong> The ZIP includes the Windows app and source files and is about 100 MB. It may take a while to download. Extract the ZIP before opening NOUPDATE.exe.</p>
+      <p class="note">The desktop app includes the NoUpdateAI interface and sign-in screen. An internet connection is needed for sign-in and AI chat. Run the downloaded EXE and follow the installer steps. Windows may show a SmartScreen warning because the app is not code-signed.</p>
+    </main>
+  </body>
+</html>
